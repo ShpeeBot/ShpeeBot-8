@@ -1,4 +1,4 @@
-# Gravebot
+# Shpeebot
 
 [![Build Status](https://david-dm.org/gravebot/gravebot.svg)](https://david-dm.org/gravebot/gravebot)
 [![Build Status](https://travis-ci.org/Gravebot/Gravebot.svg?branch=master)](https://travis-ci.org/Gravebot/Gravebot)
@@ -8,21 +8,9 @@
 [![Discord](https://discordapp.com/api/guilds/128598463947472897/widget.png)](https://discord.gg/0iXEgtjdHgkpdsVr)
 ## About
 
-A fantastic, helpful, and fun [Discord](https://discordapp.com) chat and music bot! Gravebot comes with a bunch of cool and powerful commands for both Discord and games!
+A fantastic, helpful, and fun [Discord](https://discordapp.com) chat and music bot! Shpeebot comes with a bunch of cool and powerful commands for both Discord and games!
 
 ## [Changelog](CHANGELOG.md)
-
-## How to use
-#### Invitation
-The easiest way to set this bot up on your server is to invite it to your Discord server. It is currently hosted 24/7 and will always get the newest features first.
-
-In order to do that, just [click here](https://discordapp.com/oauth2/authorize?&client_id=170664340968570880&scope=bot&permissions=305261590) and choose a server. You need to have **Manage Server** permission on that server. You may remove some of the permissions if you wish, but be warned it may break current and upcoming features.
-
-If you want to give the bot a first try, you may do that in the [Gravebot's Lair](https://discord.gg/0iXEgtjdHgkpdsVr) Discord server.
-
-If you have any questions, feedback, or want to request features, you may also do that by leaving a message in [Gravebot's Lair](https://discord.gg/0iXEgtjdHgkpdsVr), using the `!feedback` command, private messaging Gravestorm or Zalik, as well as opening an [issue on Github](https://github.com/Gravebot/Gravebot/issues/new).
-
-For self hosting, click [here](#localconfig).
 
 ## Commands
 #### Help:
@@ -134,76 +122,14 @@ For self hosting, click [here](#localconfig).
 
 ---
 
-<a name="localconfig" />
-
-## Local Installation
-#### Windows:
-**Warning**: Windows may have issues, even if all steps are done, sadly, we are not able to find the right dependencies for it (mostly regarding League of Legends and Wolfram commands), if you are familiar with coding, you can try messing around, either finding the right dependencies, or disabling the commands. If you are not familiar with coding, I would advise you to try out Linux, just install it alongside Windows and give it like 20GB of space, it will be plenty and you will have a good experience. Feel free to ask for help regarding installation in Gravebot's Lair, just keep this in mind.
-
-- Install [Node.js v4.8.3](https://nodejs.org/en)
-- Install [Python v2.7.13](https://www.python.org/downloads)
-- Install [Microsoft Visual Studio C++ Express](http://go.microsoft.com/?linkid=9816758)
-- Install [node-gyp](https://github.com/nodejs/node-gyp) (open the [command prompt](http://windows.microsoft.com/en-us/windows/command-prompt-faq) and write `npm install -g node-gyp`)
-- Install [libxml2](https://www.zlatkovic.com/libxml.en.html) and add it to your PATH (note that this may not work and some extra tinkering may be needed, if you find a better way of installing it, please share it)
-- If you are unable to install it, you may remove the `wolfram-alpha` dependency line from `package.json` and delete `wolfram.js` in the `Gravebot/src/commands/useful` folder. That is the only command that uses libxml2.
-- Install and run [Redis](http://redis.io/download#installation)
-- Download Gravebot (open the [command prompt](http://windows.microsoft.com/en-us/windows/command-prompt-faq) and write `git clone https://github.com/Gravebot/Gravebot.git` or if you don't have/want to use [git](https://git-scm.com/downloads), download the ZIP by clicking the green Download button at the top right of this page)
-- Rename `config.js.example` to `config.js` in the Gravebot directory and fill in the required information. Note that only variables with the `*Required*` comment are needed, everything else is optional
-- [cd](https://en.wikipedia.org/wiki/Cd_%28command%29) to the Gravebot directory and run `npm install` to install the Node dependencies
-- Run `npm start` in the Gravebot directory to start the bot
-
-#### Linux:
-- Install [Node.js v4.8.3](https://nodejs.org/en)
-- Install [ffmpeg](https://ffmpeg.org), [gcc](https://gcc.gnu.org), [git](https://git-scm.com), [libxml2](http://www.xmlsoft.org) and [python](https://www.python.org) (open the [terminal](http://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal) and write `sudo apt-get install build-essential python git libxml2-dev ffmpeg libfontconfig1`)
-- Install [node-gyp](https://github.com/nodejs/node-gyp) (open the [terminal](http://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal) and write `sudo npm install -g node-gyp`)
-- Install and run [Redis](http://redis.io/download#installation)
-- Download Gravebot (open the [terminal](http://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal) and write `git clone https://github.com/Gravebot/Gravebot.git` or if you don't have/want to use [git](https://git-scm.com/downloads), download the ZIP by clicking the green Download button at the top right of this page)
-- Rename `config.js.example` to `config.js` in the Gravebot directory and fill in the required information. Note that only variables with the `*Required*` comment are needed, everything else is optional
-- [cd](https://en.wikipedia.org/wiki/Cd_%28command%29) to the Gravebot directory and run `npm install` to install the Node dependencies
-- Run `npm start` in the Gravebot directory to start the bot
-
-#### Mac:
-- Install [Node.js v4.8.3](https://nodejs.org/en)
-- Install [Python v2.7.13](https://www.python.org/downloads)
-- Install [node-gyp](https://github.com/nodejs/node-gyp) (open the [terminal](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line) and write `sudo npm install -g node-gyp`)
-- Install and run [Redis](http://redis.io/download#installation)
-- Download Gravebot (open the [terminal](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line) and write `git clone https://github.com/Gravebot/Gravebot.git` or if you don't have/want to use [git](https://git-scm.com/downloads), download the ZIP by clicking the green Download button at the top right of this page)
-- Rename `config.js.example` to `config.js` in the Gravebot directory and fill in the required information. Note that only variables with the `*Required*` comment are needed, everything else is optional
-- [cd](https://en.wikipedia.org/wiki/Cd_%28command%29) to the Gravebot directory and run `npm install` to install the Node dependencies
-- Run `npm start` in the Gravebot directory to start the bot
-
-
-## Deployment
-#### Heroku
-
-Gravebot comes setup and ready for [Heroku](https://www.heroku.com).
-
-1. Setup your configuration in Heroku's app settings, environment variables.
-2. Setup the buildpacks in Heroku's app settings by clicking Add buildpack and selecting NodeJS, as well as adding the following buildpack for music commands `https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git`
-3. Push the source code.
-
-#### Docker
-
-Master branch is built and pushed to our Docker image. You can pull the latest from [here](https://hub.docker.com/r/gravebot/gravebot).
-
-
 ## Updating
 
-Updating Gravebot is like any other Node.js app. Just run `git pull && npm install` in the Gravebot folder via the [terminal](http://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal) if you're on Linux or the [command prompt](http://windows.microsoft.com/en-us/windows/command-prompt-faq) if you're on Windows. You may also download the ZIP, configure it and run npm install again.
+Updating Shpeebot is like any other Node.js app. Just run `git pull && npm install` in the Shpeebot folder via the [terminal](http://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal) if you're on Linux or the [command prompt](http://windows.microsoft.com/en-us/windows/command-prompt-faq) if you're on Windows. You may also download the ZIP, configure it and run npm install again.
 
 ---
 
-## Feature Requests
-
-Have a feature in mind? We'd love to hear about it. Feel free to [open an issue](https://github.com/Gravebot/Gravebot/issues/new) and let us know.
-
 ## Contribute
 
-Want to contribute to Gravebot? That's great! Be sure to check out the [CONTRIBUTE.md](CONTRIBUTE.md) doc for more information on how.
-
-## Contributors
-
-- Gravestorm  *(Maintainer)* - [@Gravestorm](https://github.com/Gravestorm)
-- Dustin Blackman *(Maintainer)* - [@dustinblackman](https://github.com/dustinblackman)
+Want to contribute to ShpeeBot? That's great! Be sure to check out the [CONTRIBUTE.md](CONTRIBUTE.md) doc for more information on how.
 
 ## [License](LICENSE)
