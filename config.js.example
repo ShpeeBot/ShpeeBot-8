@@ -22,7 +22,7 @@ var config = { // NOTE: DO NOT LEAVE ANYTHING BLANK
 		welcomeEnabled: 'false',
 		inviteFilterEnabled: 'false',
 		inviteWhitelist: ['discord-testers', 'discord-developers'], // This can be changed, these are just defaults as an example
-		facepalms: 'false', // If enabled, the bot will reply with the facepalm emoji whenever a message contains 'facepalm'
+		facepalms: 'true', // If enabled, the bot will reply with the facepalm emoji whenever a message contains 'facepalm'
 		swearFilter: 'false',
 		swearWords: ['fuck'], // An array of swear words. These should be lowercase. (of course, I have not included much for certain reasons...)
 		logDeletes: 'false',
@@ -36,7 +36,7 @@ var config = { // NOTE: DO NOT LEAVE ANYTHING BLANK
 	dashboard: {
 		enabled: 'true', // This setting controls whether the dashboard is enabled or not.
 		oauthSecret: '_ZjNmutoz_Yp9qc0jyhYq3kr7ADC70kG', // The client secret from the Discord bot page
-		secure: 'true', // HTTPS: 'true' for true, 'false' for false
+		secure: 'false', // HTTPS: 'true' for true, 'false' for false
 		sessionSecret: 'dankzone.aternos.me', // Go crazy on the keyboard here, this is used as a session secret
 		domain: 'localhost:33445', // Domain name (with port if not running behind proxy running on port 80). Example: 'domain': 'dashboard.bot-website.com' OR 'domain': 'localhost:33445'
 		port: '33445', // The port that it should run on
