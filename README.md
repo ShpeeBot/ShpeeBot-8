@@ -1,4 +1,5 @@
 # Shpee Discord Bot
+[![Build Status](https://travis-ci.org/DankZone/ShpeeBot.svg?branch=glitch)](https://travis-ci.org/DankZone/ShpeeBot)
 
 Shpee Discord bot made for the [DankZone Discord server](https://discordapp.com/invite/gwamp7n)
 
