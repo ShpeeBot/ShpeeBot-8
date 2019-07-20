@@ -1,5 +1,7 @@
 # Shpee Discord Bot
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c21102ed40c24e7fa95cc7af770cac15)](https://app.codacy.com/app/LeoDoesThings/ShpeeBot?utm_source=github.com&utm_medium=referral&utm_content=DankZone/ShpeeBot&utm_campaign=Badge_Grade_Dashboard)
+
 Shpee Discord bot made for the [DankZone Discord server](https://discordapp.com/invite/gwamp7n)
 
 ## It currently has these features:
