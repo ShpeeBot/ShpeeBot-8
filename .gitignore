@@ -13,7 +13,3 @@ watch.json
 .data
 linux_run.sh
 windows_run.sh
-package-lock.json
-shrinkwrap.yaml
-.eslintrc.json
-.gitignore

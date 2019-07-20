@@ -36,6 +36,8 @@ Glitch is a free app and site deploying service. We use this service personally 
 
 If you have never used Glitch before, you can follow [this guide](https://anidiots.guide/other-guides/hosting-on-glitch) on how to host a simple bot on Glitch.
 
+Also if you tweak around with the code and run into problems, the [Glitch Forums](https://support.glitch.com/) is a great way to get help from Glitch staff and other community developers.
+
 ### Example Configuration
 
 #### config.js
