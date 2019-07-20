@@ -160,7 +160,8 @@ For the dashboard, you may change the theme, wording, design, links, etc. howeve
 
 Want to contribute?
 
-Shpee is written in Discord.js. If you want to add a feature or work on the code, feel free make a pull request, we review all pull requests even if we don't reply to them.
+Shpee is written in Discord.js. If you want to add a feature or work on the code, feel free make a pull request. 
+We review all pull requests even if we don't reply to them.
 
 ## Credits
 
