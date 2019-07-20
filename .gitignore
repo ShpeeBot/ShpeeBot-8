@@ -11,5 +11,6 @@ watch.json
 .config
 .gitconfig
 .data
+.github
 linux_run.sh
 windows_run.sh
