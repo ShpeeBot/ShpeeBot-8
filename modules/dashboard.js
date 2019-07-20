@@ -125,8 +125,8 @@ module.exports = (client) => {
 	app.locals.domain = client.config.dashboard.domain;
 
 	// The EJS templating engine gives us more power
-	app.engine('html', require('ejs').renderFile);
-	app.set('view engine', 'html');
+	app.set('views', './dashboard/templates');
+	app.set('view engine', 'ejs');
 
 	// body-parser reads incoming JSON or FORM data and simplifies their
 	// use in code.
@@ -354,21 +354,21 @@ module.exports = (client) => {
 				//console.log(typeof value);
 				//console.log(value);
 
-			} else if (key === "inviteWhitelist") {
-					var iWArray = [];
-					value = value.replace(/\s/g, '');
-					value.indexOf(',') > -1 ? iWArray = value.split(',') : iWArray.push(value);
-					settings[key] = iWArray;
-				} if (key === "swearWords") {
-					var sWArray = [];
-				 	value = value.replace(/\s/g, '');
-					value.indexOf(',') > -1 ? sWArray = value.split(',') : sWArray.push(value);
-				 	settings[key] = sWArray;
-				} else {
-					settings[key] = value;
-					//console.log(typeof value);
-					//console.log(value);
-				}
+			} else if (key === 'inviteWhitelist') {
+				var iWArray = [];
+				value = value.replace(/\s/g, '');
+				value.indexOf(',') > -1 ? iWArray = value.split(',') : iWArray.push(value);
+				settings[key] = iWArray;
+			} if (key === 'swearWords') {
+				var sWArray = [];
+				value = value.replace(/\s/g, '');
+				value.indexOf(',') > -1 ? sWArray = value.split(',') : sWArray.push(value);
+				settings[key] = sWArray;
+			} else {
+				settings[key] = value;
+				//console.log(typeof value);
+				//console.log(value);
+			}
 			//settings[key] = req.body[key];
 		}
 		client.settings.set(guild.id, settings);

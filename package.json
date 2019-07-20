@@ -1,8 +1,8 @@
 {
-  "name": "ndt3-discord-bot",
+  "name": "Shpee",
   "version": "8.3.1",
   "description": "My first Discord bot made in Discord.js",
-  "main": "bot.js",
+  "main": "server.js",
   "dependencies": {
     "bufferutil": "^3.0.2",
     "child_process": "^1.0.2",
@@ -36,12 +36,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot.js"
+    "start": "node server.js"
   },
   "engines": {
     "node": "8.x"
   },
-  "author": "NdT3",
+  "author": "LeoDoesThings",
   "license": "Apache-2.0",
   "devDependencies": {
     "jshint": "^2.9.5"
