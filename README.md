@@ -111,6 +111,7 @@ SECRET=
 DOMAIN=
 GOOGLEAPI=
 SERVER=
+EMAIL=
 ```
 
 Obviously this is pretty self explanatory but we'll give you a list of what to do here.
@@ -121,6 +122,7 @@ Obviously this is pretty self explanatory but we'll give you a list of what to d
 * `DOMAIN` - Your dashboard domain, you can leave this blank if you have disabled the dashboard in the `config.js` file.
 * `GOOGLEAPI` - Your Google API code for music and link shortening
 * `SERVER` - Your server name here
+* `EMAIL` - Your contact email here
 
 For a full guide on how to set up the bot, see our [wiki documentation](https://github.com/DankZone/ShpeeBot/wiki).
 
@@ -172,7 +174,7 @@ We review all pull requests even if we don't reply to them.
 
 ## Credits
 
-- Bot based on NdT3Development's "[DiscordBot](https://github.com/An-Idiots-Guide/guidebot)".
+- Bot based on NdT3Development's [DiscordBot](https://github.com/An-Idiots-Guide/guidebot).
 - Made using [Discord.js](https://github.com/hydrabolt/discord.js).
 - The music part of the bot is based on [this bot](https://github.com/iCrawl/Music-Bot).
 
