@@ -25,7 +25,7 @@ Shpee Discord bot made for the [DankZone Discord server](https://discordapp.com/
 
 See the [wiki](https://github.com/DankZone/ShpeeBot/wiki)
 
-### Public Bot
+### Invite Public Bot
 
 Coming Soon.
 
