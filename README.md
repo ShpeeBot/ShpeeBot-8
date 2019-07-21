@@ -23,7 +23,9 @@ Shpee Discord bot made for the [DankZone Discord server](https://discordapp.com/
 
 ### Self-hosting
 
-See the [wiki](https://github.com/DankZone/ShpeeBot/wiki)
+Good news - You can host Shpee for free on Glitch!
+
+See the [wiki](https://github.com/DankZone/ShpeeBot/wiki) on how to set up Shpee.
 
 ### Invite Public Bot
 
