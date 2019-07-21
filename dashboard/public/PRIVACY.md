@@ -23,7 +23,7 @@ _(Note that this list may not be complete. If marked with a asterisk_ (`*`) _the
 - Guild join logs _(Guild name)_
 - Guild leave logs _(Guild name)_
 
-I, ***NdT3Development***, (as the bot developer) _will not be liable or responsible for damages of_ ***any*** _kind_ (including, without limitation, damages caused, loss of information or data, or any other indirect, incidental, special or consequential damages) arising out of the use of this bot, even if advised of the possibility of such damages.
+I, ***LeoDoesThings***, (as the bot developer) _will not be liable or responsible for damages of_ ***any*** _kind_ (including, without limitation, damages caused, loss of information or data, or any other indirect, incidental, special or consequential damages) arising out of the use of this bot, even if advised of the possibility of such damages.
 
 It is recommended to inform users of your Discord guild that the bot may collect their **END USER DATA**.
 
@@ -82,7 +82,7 @@ In addition to the above, certain parts of the Site will require log in to a ext
 
 ### Changes to this privacy policy
 
-NdT3Development has the discretion to update this privacy policy at any time. When we do, revise the updated date at the bottom of this page,. We encourage Users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.
+DankZone has the discretion to update this privacy policy at any time. When we do, revise the updated date at the bottom of this page,. We encourage Users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.
 
 ### Your acceptance of these terms
 

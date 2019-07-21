@@ -109,7 +109,8 @@ TOKEN=
 SESSIONSECRET=
 SECRET=
 DOMAIN=
-
+GOOGLEAPI=
+SERVER=
 ```
 
 Obviously this is pretty self explanatory but we'll give you a list of what to do here.
@@ -118,6 +119,10 @@ Obviously this is pretty self explanatory but we'll give you a list of what to d
 * `SESSIONSECRET` - Just go crazy on the keyboard, this is like your bot password.
 * `SECRET` - Your bot "secret"
 * `DOMAIN` - Your dashboard domain, you can leave this blank if you have disabled the dashboard in the `config.js` file.
+* `GOOGLEAPI` - Your Google API code for music and link shortening
+* `SERVER` - Your server name here
+
+For a full guide on how to set up the bot, see our [wiki documentation](https://github.com/DankZone/ShpeeBot/wiki).
 
 **It is recommended to run the dashboard with a proxy (like Nginx)**
 
