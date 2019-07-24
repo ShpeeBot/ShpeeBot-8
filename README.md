@@ -35,7 +35,7 @@ Bot offline? Check the [DankZone status page](https://status.dankzone.ml/) for r
 If the bot really is offline, we'll be working on it ASAP to get the bot online again.
   
   
-**Hosting a bot takes money ya know?**
+**Hosting a bot costs money ya know?**
 
 If you are using our public bot, please seriously consider donating to us at <https://donorbox.org/dankzone>. Even if you aren't using our public bot, donating ensures that we continue to update the bot and fix issues.
 
