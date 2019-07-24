@@ -29,7 +29,15 @@ See the [wiki on how to set up Shpee](https://github.com/DankZone/ShpeeBot/wiki)
 
 ### Invite Public Bot
 
-Coming Soon.
+Invite Shpee by DankZone through the Shpee website! <https://shpee.dankzone.ml/>.  
+
+Bot offline? Check the [DankZone status page](https://status.dankzone.ml/) for real-time status monitoring to see if the bot is offline.  
+If the bot really is offline, we'll be working on it ASAP to get the bot online again.
+  
+  
+**Hosting a bot takes money ya know?**
+
+If you are using our public bot, please seriously consider donating to us at <https://donorbox.org/dankzone>. Even if you aren't using our public bot, donating ensures that we continue to update the bot and fix issues.
 
 ## Changes to the Code
 
