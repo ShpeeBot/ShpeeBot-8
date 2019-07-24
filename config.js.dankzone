@@ -33,7 +33,7 @@ var config = { // NOTE: DO NOT LEAVE ANYTHING BLANK
 		sendHelp: 'channel' // Available options: channel, dm
 	},
 	dashboard: {
-		enabled: 'true', // This setting controls whether the dashboard is enabled or not.
+		enabled: 'false', // This setting controls whether the dashboard is enabled or not.
 		oauthSecret: process.env.SECRET, // The client secret from the Discord bot page
 		secure: 'true', // HTTPS: 'true' for true, 'false' for false
 		sessionSecret: process.env.SESSIONSECRET, // Go crazy on the keyboard here, this is used as a session secret
