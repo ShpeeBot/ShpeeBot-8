@@ -6,6 +6,8 @@ patch:
   'npm:extend:20180424':
     - node-bypasser > request > extend:
         patched: '2019-07-24T09:51:44.442Z'
+    - cheerio > jsdom > request > extend:
+        patched: '2019-07-24T23:50:07.827Z'
   'npm:hoek:20180212':
     - node-bypasser > request > hawk > hoek:
         patched: '2019-07-24T09:51:44.442Z'
@@ -15,9 +17,19 @@ patch:
         patched: '2019-07-24T09:51:44.442Z'
     - node-bypasser > request > hawk > cryptiles > boom > hoek:
         patched: '2019-07-24T09:51:44.442Z'
+    - cheerio > jsdom > request > hawk > hoek:
+        patched: '2019-07-24T23:50:07.827Z'
+    - cheerio > jsdom > request > hawk > boom > hoek:
+        patched: '2019-07-24T23:50:07.827Z'
+    - cheerio > jsdom > request > hawk > sntp > hoek:
+        patched: '2019-07-24T23:50:07.827Z'
+    - cheerio > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-07-24T23:50:07.827Z'
   'npm:lodash:20180130':
     - node-bypasser > cheerio > lodash:
         patched: '2019-07-24T09:51:44.442Z'
   'npm:stringstream:20180511':
     - node-bypasser > request > stringstream:
         patched: '2019-07-24T09:51:44.442Z'
+    - cheerio > jsdom > request > stringstream:
+        patched: '2019-07-24T23:50:07.827Z'
