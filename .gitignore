@@ -15,4 +15,5 @@ linux_run.sh
 windows_run.sh
 shrinkwrap.yaml
 package-lock.json
+.snyk
 .gitignore
