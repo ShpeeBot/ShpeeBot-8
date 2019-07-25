@@ -26,17 +26,20 @@
     "url": "^0.11.0",
     "util-deprecate": "^1.0.2",
     "showdown": "^1.9.0",
-    "cheerio": "^0.22.0",
+    "cheerio": "^0.20.0",
     "node-bypasser": "^1.8.0",
     "simple-youtube-api": "^5.2.1",
     "ytdl-core": "^0.29.3",
     "opusscript": "^0.0.6",
     "prism-media": "^1.0.2",
-    "isgd": "^1.1.3"
+    "isgd": "^1.1.3",
+    "snyk": "^1.199.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": "8.x"
@@ -45,5 +48,6 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "jshint": "^2.9.5"
-  }
+  },
+  "snyk": true
 }
