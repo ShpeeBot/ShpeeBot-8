@@ -1,6 +1,11 @@
 # Shpee Discord Bot
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c21102ed40c24e7fa95cc7af770cac15)](https://app.codacy.com/app/LeoDoesThings/ShpeeBot?utm_source=github.com&utm_medium=referral&utm_content=DankZone/ShpeeBot&utm_campaign=Badge_Grade_Dashboard)
+<p align="center" style="margin:0;">
+      <a href="https://app.codacy.com/project/LeoDoesThings/ShpeeBot"><img src="https://img.shields.io/codacy/grade/4d742458af0b4079b123ae14a6f95d70?style=for-the-badge" alt="Code Quality"></a>
+      <a href="https://github.com/DankZone/ShpeeBot/blob/glitch/LICENSE"><img src="https://img.shields.io/github/license/DankZone/ShpeeBot?style=for-the-badge" alt="License"></a>
+      <a href="https://github.com/DankZone/ShpeeBot/releases"><img src="https://img.shields.io/github/release/DankZone/ShpeeBot?style=for-the-badge" alt="Version"></a>
+      <a href="https://discord.gg/gwamp7n"><img src="https://img.shields.io/discord/344369585950294016?logo=Discord&style=for-the-badge" alt="Discord server"></a>
+</p>
 
 Shpee Discord bot made for the [DankZone Discord server](https://discordapp.com/invite/gwamp7n)
 
@@ -67,3 +72,6 @@ Please read the `PRIVACY.md` file.
 ## License
 
 Please read the `LICENSE` file
+
+---
+"Discord", "Discord App", and any associated logos are registered trademarks of Discord, inc.
