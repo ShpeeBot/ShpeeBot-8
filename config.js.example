@@ -1,7 +1,7 @@
 /* eslint-disable */
 var config = { // NOTE: DO NOT LEAVE ANYTHING BLANK
 	// ALL settings are strings. Do NOT just use true or false, use these in strings such as 'true' or 'false'. This is due to how some code works when changing the settings
-	ownerID: '123456789012345678', // Your ID here
+	ownerID: 'process.env.OWNER', // Your ID here
 	token: process.env.TOKEN, // Your bot token here
 	status: 'online', // Bot status [online/idle/invisible/dnd]
 	debug: 'false', // This is used to output some debug info if needed. The token will be in the console and other information could be in the console
@@ -17,13 +17,13 @@ var config = { // NOTE: DO NOT LEAVE ANYTHING BLANK
 		modRole: 'Moderator',
 		adminRole: 'Admin',
 		welcomeChannel: 'general',
-		welcomeMessage: 'Welcome {{user}}!',
+		welcomeMessage: 'Welcome to the server {{user}}!',
 		welcomeEnabled: 'false',
 		inviteFilterEnabled: 'false',
 		inviteWhitelist: ['discord-testers', 'discord-developers'], // This can be changed, these are just defaults as an example
 		facepalms: 'false', // If enabled, the bot will reply with the facepalm emoji whenever a message contains 'facepalm'
 		swearFilter: 'false',
-		swearWords: ['fuck'], // An array of swear words. These should be lowercase. (of course, I have not included much for certain reasons...)
+		swearWords: ['fuck, shit, bitch'], // An array of swear words. These should be lowercase. (of course, I have not included much for certain reasons...)
 		logDeletes: 'true',
 		logNewMember: 'true',
 		logMemberLeave: 'true',
@@ -34,16 +34,16 @@ var config = { // NOTE: DO NOT LEAVE ANYTHING BLANK
 	dashboard: {
 		enabled: 'true', // This setting controls whether the dashboard is enabled or not.
 		oauthSecret: process.env.SECRET, // The client secret from the Discord bot page
-		secure: 'false', // HTTPS: 'true' for true, 'false' for false
+		secure: 'true', // HTTPS: 'true' for true, 'false' for false
 		sessionSecret: process.env.SESSIONSECRET, // Go crazy on the keyboard here, this is used as a session secret
 		domain: process.env.DOMAIN, // Domain name (with port if not running behind proxy running on port 80). Example: 'domain': 'dashboard.bot-website.com' OR 'domain': 'localhost:33445'
-		port: '33445', // The port that it should run on
+		port: '3000', // The port that it should run on
 		invitePerm: '536079575',
 		protectStats: 'false',
 		borderedStats: 'false', // Controls whether stats in the dashboard should have a border or not
 		legalTemplates: {
-			contactEmail: 'support@website.com', // This email will be used in the legal page of the dashboard if someone needs to contact you for any reason regarding this page
-			lastEdited: '18 November 2018' // Change this if you update the `TERMS.md` or `PRIVACY.md` files in `dashboard/public/`
+			contactEmail: process.env.EMAIL, // This email will be used in the legal page of the dashboard if someone needs to contact you for any reason regarding this page
+			lastEdited: '22 July 2019' // Change this if you update the `TERMS.md` or `PRIVACY.md` files in `dashboard/public/`
 		}
 	}
 };

@@ -424,14 +424,32 @@ module.exports = (client) => {
 
 	app.get('/commands', (req, res) => {
 		if (req.isAuthenticated()) {
-			res.render(path.resolve(`${templateDir}${path.sep}commands.ejs`), {
+			res.render(path.resolve(`${templateDir}${path.sep}docs.ejs`), {
 				bot: client,
 				auth: true,
 				user: req.user,
 				md: md
 			});
 		} else {
-			res.render(path.resolve(`${templateDir}${path.sep}commands.ejs`), {
+			res.render(path.resolve(`${templateDir}${path.sep}docs.ejs`), {
+				bot: client,
+				auth: false,
+				user: null,
+				md: md
+			});
+		}
+	});
+  
+  	app.get('/docs', (req, res) => {
+		if (req.isAuthenticated()) {
+			res.render(path.resolve(`${templateDir}${path.sep}docs.ejs`), {
+				bot: client,
+				auth: true,
+				user: req.user,
+				md: md
+			});
+		} else {
+			res.render(path.resolve(`${templateDir}${path.sep}docs.ejs`), {
 				bot: client,
 				auth: false,
 				user: null,

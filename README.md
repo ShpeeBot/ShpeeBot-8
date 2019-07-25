@@ -23,21 +23,11 @@ Shpee Discord bot made for the [DankZone Discord server](https://discordapp.com/
 
 ### Self-hosting
 
-Good news - You can host Shpee for free on Glitch!
-
-See the [wiki on how to set up Shpee](https://github.com/DankZone/ShpeeBot/wiki).
+See the [wiki](https://github.com/DankZone/ShpeeBot/wiki)
 
 ### Invite Public Bot
 
-Invite Shpee by DankZone through the Shpee website! <https://shpee.dankzone.ml/>.  
-
-Bot offline? Check the [DankZone status page](https://status.dankzone.ml/) for real-time status monitoring to see if the bot is offline.  
-If the bot really is offline, we'll be working on it ASAP to get the bot online again.
-  
-  
-**Hosting a bot costs money ya know?**
-
-If you are using our public bot, please seriously consider donating to us at <https://donorbox.org/dankzone>. Even if you aren't using our public bot, donating ensures that we continue to update the bot and fix issues.
+Coming Soon.
 
 ## Changes to the Code
 

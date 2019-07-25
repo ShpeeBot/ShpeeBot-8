@@ -1,6 +1,6 @@
 // Code from: https://github.com/iCrawl/Music-Bot
 exports.run = async (client, message, args, level) => { // eslint-disable-line no-unused-vars
-  if (client.config.musicEnabled !== 'true') return message.channel.send('Music commands are disabled');
+  if (client.config.musicEnabled !== 'true') return message.channel.send('Music commands are disabled. Please self-host the bot to enable music.');
   const searchString = args.join(' ');
   const url = args[0] ? args[0].replace(/<(.+)>/g, '$1') : '';
   const serverQueue = client.musicQueue.get(message.guild.id);
@@ -33,7 +33,7 @@ exports.run = async (client, message, args, level) => { // eslint-disable-line n
 					var video = await client.YouTube.getVideoByID(videos[0].id);
 				} catch (err) {
 					console.error(err);
-					return message.channel.send('🆘 I could not obtain any search results.');
+					return message.channel.send('🆘 Music has been disabled. Please self-host the bot to enable music.');
 				}
 			}
 			return client.handleVideo(video, message, voiceChannel);

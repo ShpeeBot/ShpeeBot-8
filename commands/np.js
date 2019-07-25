@@ -1,7 +1,7 @@
 // Code from: https://github.com/iCrawl/Music-Bot
 const Discord = require('discord.js');
 exports.run = async (client, message, args, level) => { // eslint-disable-line no-unused-vars
-    if (client.config.musicEnabled !== 'true') return message.channel.send('Music commands are disabled');
+    if (client.config.musicEnabled !== 'true') return message.channel.send('Music commands are disabled. Please self-host the bot to enable music.');
     const serverQueue = client.musicQueue.get(message.guild.id);
     if (!serverQueue) return message.channel.send('There is nothing playing.');
     let embed = new Discord.RichEmbed()
