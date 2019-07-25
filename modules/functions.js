@@ -1,4 +1,4 @@
-var moment = require('moment');
+var moment = require("moment");
 
 module.exports = (client) => {
 
@@ -20,7 +20,7 @@ module.exports = (client) => {
 		if (message.author.id === ownerID) return 10;
 
 		// If DMs or webhook, return 0 perm level.
-		if (message.channel.type === 'dm' || !message.member) return 0;
+		if (message.channel.type === "dm" || !message.member) return 0;
 
 		// The rest of the perms rely on roles. If those roles are not found
 		// in the settings, or the user does not have it, their level will be 0
@@ -28,13 +28,13 @@ module.exports = (client) => {
 			const modRole = message.guild.roles.find(r => r.name.toLowerCase() === message.settings.modRole.toLowerCase());
 			if (modRole && message.member.roles.has(modRole.id)) permlvl = 2;
 		} catch (e) {
-			console.warn('modRole not present in guild settings. Skipping Moderator (level 2) check');
+			console.warn("modRole not present in guild settings. Skipping Moderator (level 2) check");
 		}
 		try {
 			const adminRole = message.guild.roles.find(r => r.name.toLowerCase() === message.settings.adminRole.toLowerCase());
 			if (adminRole && message.member.roles.has(adminRole.id)) permlvl = 3;
 		} catch (e) {
-			console.warn('adminRole not present in guild settings. Skipping Administrator (level 3) check');
+			console.warn("adminRole not present in guild settings. Skipping Administrator (level 3) check");
 		}
 
 		// Guild Owner gets an extra level, wooh!
@@ -44,22 +44,22 @@ module.exports = (client) => {
 	};
 
 	client.permLevels = {
-		0: 'User',
-		2: 'Guild Moderator',
-		3: 'Guild Administrator',
-		4: 'Guild Owner',
-		10: 'Bot Owner'
+		0: "User",
+		2: "Guild Moderator",
+		3: "Guild Administrator",
+		4: "Guild Owner",
+		10: "Bot Owner"
 	};
 
 	client.pointsMonitor = (client, message) => {
-		if (message.channel.type !== 'text') return;
+		if (message.channel.type !== "text") return;
 		const settings = client.settings.get(message.guild.id);
 		if (message.content.startsWith(settings.prefix)) return;
 		const score = client.points.get(`${message.guild.id}-${message.author.id}`) || { points: 0, level: 0 };
 		score.points++;
 		const curLevel = Math.floor(0.1 * Math.sqrt(score.points));
 		if (score.level < curLevel) {
-			message.reply(`You've leveled up to level **${curLevel}**!`);
+			message.reply(`You"ve leveled up to level **${curLevel}**!`);
 			score.level = curLevel;
 		}
 		client.points.set(`${message.guild.id}-${message.author.id}`, score);
@@ -72,7 +72,7 @@ module.exports = (client) => {
 	*/
 	client.log = (type, msg, title) => {
 		var time = moment().format(client.config.logTimeFormat);
-		if (!title) title = 'Log';
+		if (!title) title = "Log";
 		console.log(`${time}: [${type}] [${title}] ${msg}`);
 	};
 
@@ -93,7 +93,7 @@ module.exports = (client) => {
 		const filter = m => m.author.id = msg.author.id;
 		await msg.channel.send(question);
 		try {
-			const collected = await msg.channel.awaitMessages(filter, { max: 1, time: limit, errors: ['time'] });
+			const collected = await msg.channel.awaitMessages(filter, { max: 1, time: limit, errors: ["time"] });
 			return collected.first().content;
 		} catch (e) {
 			return false;
@@ -105,24 +105,24 @@ module.exports = (client) => {
 	MESSAGE CLEAN FUNCTION
 
 	"Clean" removes @everyone pings, as well as tokens, and makes code blocks
-	escaped so they're shown more easily. As a bonus it resolves promises
+	escaped so they"re shown more easily. As a bonus it resolves promises
 	and stringifies objects!
 	This is mostly only used by the Eval and Exec commands.
 	*/
 	client.clean = (client, text) => {
-		//if (text && text.constructor.name === 'Promise') text = await text;
-		if (typeof evaled !== 'string') text = require('util').inspect(text, { depth: 0 });
+		//if (text && text.constructor.name === "Promise") text = await text;
+		if (typeof evaled !== "string") text = require("util").inspect(text, { depth: 0 });
 		//console.log(`T (${typeof text}): ${text}`);
 
 		var t = text
-			.replace(/`/g, '`' + String.fromCharCode(8203)) // eslint-disable-line prefer-template
-			.replace(/@/g, '@' + String.fromCharCode(8203)) // eslint-disable-line prefer-template
-			.replace(/\n/g, '\n' + String.fromCharCode(8203)) // eslint-disable-line prefer-template
-			.replace(client.config.token, 'mfa.VkO_2G4Qv3T-- NO TOKEN HERE --')
-			.replace(client.config.dashboard.oauthSecret, 'Nk-- NOPE --')
-			.replace(client.config.dashboard.sessionSecret, 'B8-- NOPE --')
-			.replace(client.config.cleverbotToken, 'CC-- NOPE --')
-			.replace(client.config.googleAPIToken, 'AI-- NOPE --...');
+			.replace(/`/g, "`" + String.fromCharCode(8203)) // eslint-disable-line prefer-template
+			.replace(/@/g, "@" + String.fromCharCode(8203)) // eslint-disable-line prefer-template
+			.replace(/\n/g, "\n" + String.fromCharCode(8203)) // eslint-disable-line prefer-template
+			.replace(client.config.token, "mfa.VkO_2G4Qv3T-- NO TOKEN HERE --")
+			.replace(client.config.dashboard.oauthSecret, "Nk-- NOPE --")
+			.replace(client.config.dashboard.sessionSecret, "B8-- NOPE --")
+			.replace(client.config.cleverbotToken, "CC-- NOPE --")
+			.replace(client.config.googleAPIToken, "AI-- NOPE --...");
 
 		//console.log(`T2 (${typeof t}): ${t}`);
 
@@ -137,7 +137,7 @@ module.exports = (client) => {
 	};
 
 	// `await wait(1000);` to "pause" for 1 second.
-	global.wait = require('util').promisify(setTimeout);
+	global.wait = require("util").promisify(setTimeout);
 
 
 	// Another semi-useful utility command, which creates a "range" of numbers
@@ -151,15 +151,15 @@ module.exports = (client) => {
 		return myArr;
 	};
 
-	client.version = require('../package.json').version;
+	client.version = require("../package.json").version;
 
 	// These 2 simply handle unhandled things. Like Magic. /shrug
-	process.on('uncaughtException', (err) => {
-		const errorMsg = err.stack.replace(new RegExp(`${__dirname}\/`, 'g'), './'); // eslint-disable-line no-useless-escape
-		console.error('Uncaught Exception: ', errorMsg);
+	process.on("uncaughtException", (err) => {
+		const errorMsg = err.stack.replace(new RegExp(`${__dirname}\/`, "g"), "./"); // eslint-disable-line no-useless-escape
+		console.error("Uncaught Exception: ", errorMsg);
 	});
 
-	process.on('unhandledRejection', err => {
-		console.error('Uncaught Promise Error: ', err);
+	process.on("unhandledRejection", err => {
+		console.error("Uncaught Promise Error: ", err);
 	});
 };

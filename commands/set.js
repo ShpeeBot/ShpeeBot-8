@@ -1,10 +1,10 @@
-const { inspect } = require('util');
+const { inspect } = require("util");
 
 // This command is to modify/edit guild configuration. Perm Level 3 for admins
 // and owners only. Used for changing prefixes and role names and such.
 
-// Note that there's no 'checks' in this basic version - no config 'types' like
-// Role, String, Int, etc... It's basic, to be extended with your deft hands!
+// Note that there"s no "checks" in this basic version - no config "types" like
+// Role, String, Int, etc... It"s basic, to be extended with your deft hands!
 
 // Note the **destructuring** here. instead of `args` we have :
 // [action, key, ...value]
@@ -18,27 +18,27 @@ exports.run = async (client, message, [action, key, ...value], level) => { // es
 	const settings = client.settings.get(message.guild.id);
 
 
-	// First, if a user does `-set add <key> <new value>`, let's add it
-	if (action === 'add') {
-		if (!key) return message.reply('Please specify a key to add');
-		if (settings[key]) return message.reply('This key already exists in the settings');
-		if (value.length < 1) return message.reply('Please specify a value');
+	// First, if a user does `-set add <key> <new value>`, let"s add it
+	if (action === "add") {
+		if (!key) return message.reply("Please specify a key to add");
+		if (settings[key]) return message.reply("This key already exists in the settings");
+		if (value.length < 1) return message.reply("Please specify a value");
 
 		if (value.length > 1) {
 			for (var i = 0; i < value.length; i++) {
 				console.log(value[i]);
-				value[i] = value[i].replace(',', '');
+				value[i] = value[i].replace(",", "");
 				console.log(value[i]);
 			}
-		} else if (value[0].indexOf(',') > -1) {
-			value = value[0].split(',');
+		} else if (value[0].indexOf(",") > -1) {
+			value = value[0].split(",");
 			//console.log(typeof value);
 			//console.log(value);
 
 		} else {
 			if (key === "swearWords" || key === "inviteWhitelist") {
 				var vArray = [];
-				value.indexOf(',') > -1 ? vArray = value[0].split(',') : vArray.push(value[0]);
+				value.indexOf(",") > -1 ? vArray = value[0].split(",") : vArray.push(value[0]);
 				value = vArray;
 			} else {
 				value = value[0];
@@ -56,24 +56,24 @@ exports.run = async (client, message, [action, key, ...value], level) => { // es
 		message.reply(`${key} successfully added with the value of ${value}`);
 	} else
 
-	// Secondly, if a user does `-set edit <key> <new value>`, let's change it
-	if (action === 'edit') {
-		if (!key) return message.reply('Please specify a key to edit');
-		if (!settings[key]) return message.reply('This key does not exist in the settings');
-		if (value.length < 1) return message.reply('Please specify a new value');
+	// Secondly, if a user does `-set edit <key> <new value>`, let"s change it
+	if (action === "edit") {
+		if (!key) return message.reply("Please specify a key to edit");
+		if (!settings[key]) return message.reply("This key does not exist in the settings");
+		if (value.length < 1) return message.reply("Please specify a new value");
 		//console.log(typeof value);
 		//console.log(value);
-		//if (typeof value === 'object') {
-		//value = value[0].split(',');
+		//if (typeof value === "object") {
+		//value = value[0].split(",");
 		// console.log(value.length);
 		if (value.length > 1) {
 			for (var i = 0; i < value.length; i++) { //eslint-disable-line no-redeclare
 				console.log(value[i]);
-				value[i] = value[i].replace(',', '');
+				value[i] = value[i].replace(",", "");
 				console.log(value[i]);
 			}
-		} else if (value[0].indexOf(',') > -1) {
-			value = value[0].split(',');
+		} else if (value[0].indexOf(",") > -1) {
+			value = value[0].split(",");
 			//console.log(typeof value);
 			//console.log(value);
 
@@ -84,7 +84,7 @@ exports.run = async (client, message, [action, key, ...value], level) => { // es
 		}
 		//console.log(value);
 		//} else {
-		//value = value.join(' ');
+		//value = value.join(" ");
 		//}
 		//console.log(value);
 
@@ -94,16 +94,16 @@ exports.run = async (client, message, [action, key, ...value], level) => { // es
 		message.reply(`${key} successfully edited to ${value}`);
 	} else
 
-	// Thirdly, if a user does `-set del <key>`, let's ask the user if they're sure...
-	if (action === 'del') {
-		if (!key) return message.reply('Please specify a key to delete.');
-		if (!settings[key]) return message.reply('This key does not exist in the settings');
+	// Thirdly, if a user does `-set del <key>`, let"s ask the user if they"re sure...
+	if (action === "del") {
+		if (!key) return message.reply("Please specify a key to delete.");
+		if (!settings[key]) return message.reply("This key does not exist in the settings");
 
-		// Throw the 'are you sure?' text at them.
+		// Throw the "are you sure?" text at them.
 		const response = await client.awaitReply(message, `Are you sure you want to permanently delete ${key}? This **CANNOT** be undone.`);
 
 		// If they respond with y or yes, continue.
-		if (['y', 'yes'].includes(response)) {
+		if (["y", "yes"].includes(response)) {
 
 			// We delete the `key` here.
 			delete settings[key];
@@ -111,30 +111,30 @@ exports.run = async (client, message, [action, key, ...value], level) => { // es
 			message.reply(`${key} was successfully deleted.`);
 		} else
 		// If they respond with n or no, we inform them that the action has been cancelled.
-		if (['n', 'no', 'cancel'].includes(response)) {
-			message.reply('Action cancelled.');
+		if (["n", "no", "cancel"].includes(response)) {
+			message.reply("Action cancelled.");
 		}
 	} else
 
-	if (action === 'get') {
-		if (!key) return message.reply('Please specify a key to view');
-		if (!settings[key]) return message.reply('This key does not exist in the settings');
+	if (action === "get") {
+		if (!key) return message.reply("Please specify a key to view");
+		if (!settings[key]) return message.reply("This key does not exist in the settings");
 		message.reply(`The value of ${key} is currently ${settings[key]}`);
 	} else {
-		message.channel.send(inspect(settings), { code: 'json' });
+		message.channel.send(inspect(settings), { code: "json" });
 	}
 };
 
 exports.conf = {
 	enabled: true,
 	guildOnly: true,
-	aliases: ['setting', 'settings', 'conf'],
+	aliases: ["setting", "settings", "conf"],
 	permLevel: 3
 };
 
 exports.help = {
-	name: 'set',
-	category: 'System',
-	description: 'View or change settings for your server.',
-	usage: 'set\nset [get] [key]\n set [edit] [key] [value]\n set [add] [key] [value]\n set [del] [key]'
+	name: "set",
+	category: "System",
+	description: "View or change settings for your server.",
+	usage: "set\nset [get] [key]\n set [edit] [key] [value]\n set [add] [key] [value]\n set [del] [key]"
 };

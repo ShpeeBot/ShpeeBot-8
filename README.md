@@ -4,30 +4,40 @@
 
 Shpee Discord bot made for the [DankZone Discord server](https://discordapp.com/invite/gwamp7n)
 
-## It currently has these features:
-  - Kicking users
-  - Banning users
-  - Ping command
-  - Eval command
-  - Purge
-  - Say command (says what you tell it to say)
-  - Stats
-  - Stopping the bot using a command
-  - Testing command (Testing, testing, 1 2 3)
-  - Change settings command
-  - Embed command (basic, using RichEmbed)
-  - Deleted message logs
-  - Invite link filter
-  - Web Dashboard
-  - Music Commands (Code from: https://github.com/iCrawl/Music-Bot)
+## It currently has these features
+- Kicking users
+- Banning users
+- Ping command
+- Eval command
+- Purge
+- Say command (says what you tell it to say)
+- Stats
+- Stopping the bot using a command
+- Testing command (Testing, testing, 1 2 3)
+- Change settings command
+- Embed command (basic, using RichEmbed)
+- Deleted message logs
+- Invite link filter
+- Web Dashboard
+- Music Commands (Code from: https://github.com/iCrawl/Music-Bot)
 
 ### Self-hosting
 
-See the [wiki](https://github.com/DankZone/ShpeeBot/wiki)
+Good news - You can host Shpee for free on Glitch!
+
+See the [wiki on how to set up Shpee](https://github.com/DankZone/ShpeeBot/wiki).
 
 ### Invite Public Bot
 
-Coming Soon.
+Invite Shpee by DankZone through the Shpee website! <https://shpee.dankzone.ml/>.  
+
+Bot offline? Check the [DankZone status page](https://status.dankzone.ml/) for real-time status monitoring to see if the bot is offline.  
+If the bot really is offline, we'll be working on it ASAP to get the bot online again.
+  
+  
+**Hosting a bot costs money ya know?**
+
+If you are using our public bot, please seriously consider donating to us at <https://donorbox.org/dankzone>. Even if you aren't using our public bot, donating ensures that we continue to update the bot and fix issues.
 
 ## Changes to the Code
 
@@ -50,10 +60,10 @@ We review all pull requests even if we don't reply to them.
 - Made using [Discord.js](https://github.com/hydrabolt/discord.js).
 - The music part of the bot is based on [this bot](https://github.com/iCrawl/Music-Bot).
 
-## Privacy:
+## Privacy
 
 Please read the `PRIVACY.md` file.
 
-## License:
+## License
 
 Please read the `LICENSE` file

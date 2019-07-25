@@ -11,8 +11,6 @@
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   
-  <script src="https://kit.fontawesome.com/0c3303a55e.js"></script>
-
   <style>
     .pageContent {
       display:none;
@@ -145,6 +143,7 @@
 
 		<!--<link href="/public/theme-dark.css" rel="stylesheet" id="theme"/>-->
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <% if (bot.user.avatarURL) { %><link rel='icon' href='<%= bot.user.avatarURL %>'><% } %>
   <title>
     <%= bot.user.username %> - Dashboard
@@ -168,10 +167,10 @@
       <div class="collapse navbar-collapse" id="navbar01">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item"><a class="nav-link" href="/"><i class="fa fa-home fa-fw" aria-hidden="true"></i> Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="/docs"><i class="fa fa-book fa-fw" aria-hidden="true"></i> Documentation</a></li>
+          <li class="nav-item"><a class="nav-link" href="/commands"><i class="fa fa-book fa-fw" aria-hidden="true"></i> Commands</a></li>
           <li class="nav-item"><a class="nav-link" href="/stats"><i class="fa fa-info-circle fa-fw" aria-hidden="true"></i> Stats</a></li>
           <% var invitePerm = "470019271" %>
-        <li class="nav-item"><a class="nav-link disabled">Playing on <%= bot.guilds.size %> servers</a></li>
+        <li class="nav-item"><a class="nav-link disabled">On <%= bot.guilds.size %> Guilds</a></li>
 				<script>
 					function changeTheme() {
 						var t = document.getElementById('theme').href;

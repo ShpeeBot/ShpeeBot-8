@@ -1,6 +1,6 @@
 {
   "name": "Shpee",
-  "version": "8.2.6",
+  "version": "8.5.1",
   "description": "My first Discord bot made in Discord.js",
   "main": "server.js",
   "dependencies": {
@@ -14,7 +14,7 @@
     "express": "^4.16.2",
     "express-session": "^1.16.1",
     "helmet": "^3.20.0",
-    "marked": "^0.7.0",
+    "marked": "^0.6.3",
     "moment": "^2.24.0",
     "moment-duration-format": "^2.2.2",
     "morgan": "^1.9.1",

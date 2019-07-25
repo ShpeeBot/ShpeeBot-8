@@ -392,22 +392,6 @@ module.exports = (client) => {
 		});
 	});
 
-	app.get('/leave/:guildID', checkAuth, async (req, res) => {
-		const guild = client.guilds.get(req.params.guildID);
-		if (!guild) return res.status(404);
-		const isManaged = guild && !!guild.member(req.user.id) ? guild.member(req.user.id).permissions.has('MANAGE_GUILD') : false;
-		if (req.user.id === client.config.ownerID) {
-			console.log(`Admin bypass for managing server: ${req.params.guildID}`);
-		} else if (!isManaged) {
-			res.redirect('/dashboard');
-		}
-		await guild.leave();
-		if (req.user.id === client.config.ownerID) {
-			return res.redirect('/admin');
-		}
-		res.redirect('/dashboard');
-	});
-
 	app.get('/reset/:guildID', checkAuth, async (req, res) => {
 		const guild = client.guilds.get(req.params.guildID);
 		if (!guild) return res.status(404);
@@ -424,32 +408,14 @@ module.exports = (client) => {
 
 	app.get('/commands', (req, res) => {
 		if (req.isAuthenticated()) {
-			res.render(path.resolve(`${templateDir}${path.sep}docs.ejs`), {
+			res.render(path.resolve(`${templateDir}${path.sep}commands.ejs`), {
 				bot: client,
 				auth: true,
 				user: req.user,
 				md: md
 			});
 		} else {
-			res.render(path.resolve(`${templateDir}${path.sep}docs.ejs`), {
-				bot: client,
-				auth: false,
-				user: null,
-				md: md
-			});
-		}
-	});
-  
-  	app.get('/docs', (req, res) => {
-		if (req.isAuthenticated()) {
-			res.render(path.resolve(`${templateDir}${path.sep}docs.ejs`), {
-				bot: client,
-				auth: true,
-				user: req.user,
-				md: md
-			});
-		} else {
-			res.render(path.resolve(`${templateDir}${path.sep}docs.ejs`), {
+			res.render(path.resolve(`${templateDir}${path.sep}commands.ejs`), {
 				bot: client,
 				auth: false,
 				user: null,
@@ -464,7 +430,7 @@ module.exports = (client) => {
 	});
 
 	app.get('*', function(req, res) { // Catch-all 404
-		res.send('<p>404 File Not Found. Please wait...<p> <script>setTimeout(function () { window.location = "/"; }, 1000);</script><noscript><meta http-equiv="refresh" content="1; url=/" /></noscript>');
+		res.send('<p>404 File Not Found. Please wait...<p> <script>setTimeout(function () { window.location = '/'; }, 1000);</script><noscript><meta http-equiv="refresh" content="1; url=/" /></noscript>');
 	});
 
 	client.site = app.listen(client.config.dashboard.port, function() {

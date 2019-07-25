@@ -1,7 +1,7 @@
 // Code from: https://github.com/iCrawl/Music-Bot
 
-const { Util } = require('discord.js');
-const ytdl = require('ytdl-core');
+const { Util } = require("discord.js");
+const ytdl = require("ytdl-core");
 module.exports = (client) => {
 
 	client.handleVideo = async function handleVideo(video, msg, voiceChannel, playlist = false) {
@@ -54,15 +54,15 @@ module.exports = (client) => {
 		console.log(serverQueue.songs);
 
 		const dispatcher = serverQueue.connection.playStream(ytdl(song.url))
-			.on('end', reason => {
+			.on("end", reason => {
 				setTimeout(() => {
-					if (reason === 'Stream is not generating quickly enough.') console.log('Song ended.');
+					if (reason === "Stream is not generating quickly enough.") console.log("Song ended.");
 					else console.log(reason);
 					serverQueue.songs.shift();
 					play(guild, serverQueue.songs[0]);
 				}, 100);
 			})
-			.on('error', error => console.error(error));
+			.on("error", error => console.error(error));
 		dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);
 
 		serverQueue.textChannel.send(`🎶 Start playing: **${song.title}**`);
