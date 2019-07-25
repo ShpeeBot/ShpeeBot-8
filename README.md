@@ -1,6 +1,6 @@
 # Shpee Discord Bot
 
-<p align="center" style="margin:0;">
+<p>
       <a href="https://app.codacy.com/project/LeoDoesThings/ShpeeBot"><img src="https://img.shields.io/codacy/grade/4d742458af0b4079b123ae14a6f95d70?style=for-the-badge" alt="Code Quality"></a>
       <a href="https://github.com/DankZone/ShpeeBot/blob/glitch/LICENSE"><img src="https://img.shields.io/github/license/DankZone/ShpeeBot?style=for-the-badge" alt="License"></a>
       <a href="https://github.com/DankZone/ShpeeBot/releases"><img src="https://img.shields.io/github/release/DankZone/ShpeeBot?style=for-the-badge" alt="Version"></a>
