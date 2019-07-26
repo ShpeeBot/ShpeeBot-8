@@ -7,7 +7,7 @@
       <a href="https://discord.gg/gwamp7n"><img src="https://img.shields.io/discord/344369585950294016?logo=Discord&style=for-the-badge" alt="Discord server"></a>
 </p>
 
-Shpee Discord bot made for the [DankZone Discord server](https://discordapp.com/invite/gwamp7n)
+Shpee Discord bot made for the [DankZone Discord server](https://discordapp.com/invite/gwamp7n).
 
 ## It currently has these features
 - Kicking users
