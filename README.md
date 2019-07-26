@@ -1,10 +1,10 @@
 # Shpee Discord Bot
 
 <p>
-      <a href="https://app.codacy.com/project/LeoDoesThings/ShpeeBot/dashboard"><img src="https://img.shields.io/codacy/grade/4d742458af0b4079b123ae14a6f95d70?style=for-the-badge" alt="Code Quality"></a>
-      <a href="https://github.com/DankZone/ShpeeBot/blob/glitch/LICENSE"><img src="https://img.shields.io/github/license/DankZone/ShpeeBot?style=for-the-badge" alt="License"></a>
-      <a href="https://github.com/DankZone/ShpeeBot/releases"><img src="https://img.shields.io/github/release/DankZone/ShpeeBot?style=for-the-badge" alt="Version"></a>
-      <a href="https://discord.gg/gwamp7n"><img src="https://img.shields.io/discord/344369585950294016?logo=Discord&style=for-the-badge" alt="Discord server"></a>
+    <a href="https://app.codacy.com/project/LeoDoesThings/ShpeeBot/dashboard"><img src="https://img.shields.io/codacy/grade/4d742458af0b4079b123ae14a6f95d70?style=for-the-badge" alt="Code Quality"></a>
+    <a href="https://github.com/DankZone/ShpeeBot/blob/glitch/LICENSE"><img src="https://img.shields.io/github/license/DankZone/ShpeeBot?style=for-the-badge" alt="License"></a>
+    <a href="https://github.com/DankZone/ShpeeBot/releases"><img src="https://img.shields.io/github/release/DankZone/ShpeeBot?style=for-the-badge" alt="Version"></a>
+    <a href="https://discord.gg/gwamp7n"><img src="https://img.shields.io/discord/344369585950294016?logo=Discord&style=for-the-badge" alt="Discord server"></a>
 </p>
 
 Shpee Discord bot made for the [DankZone Discord server](https://discordapp.com/invite/gwamp7n).
@@ -44,6 +44,9 @@ If the bot really is offline, we'll be working on it ASAP to get the bot online 
 
 If you are using our public bot, please seriously consider donating to us at <https://donorbox.org/dankzone>. Even if you aren't using our public bot, donating ensures that we continue to update the bot and fix issues.
 
+### Customisable
+Shpee has a web dashboard so you can change the settings to your server's needs! Check out the dashboard at <https://shpee.dankzone.ml/>.
+
 ## Changes to the Code
 
 You may change code if needed under the following conditions:
@@ -56,8 +59,12 @@ For the dashboard, you may change the theme, wording, design, links, etc. howeve
 
 Want to contribute?
 
+Shpee is open-source on our GitHub repository so everyone in the community can contribute to the growth of the bot. Whether it is from reporting issues, requesting features, or straight-up requesting to add some new code, it can all be done on our GitHub repo!
+
 Shpee is written in Discord.js. If you want to add a feature or work on the code, feel free make a pull request. 
 We review all pull requests even if we don't reply to them.
+
+If you don't know how to code but still want to contribute you can donate to us at <https://donorbox.org/dankzone> to support the project.
 
 ## Credits
 
