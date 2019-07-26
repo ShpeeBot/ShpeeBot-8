@@ -1,12 +1,12 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 
 exports.run = async (client, message, args, level) => { // eslint-disable-line no-unused-vars
 	var time = Date.now();
 
 	const embed = new Discord.RichEmbed()
-		.setColor('GREEN')
-		.setTitle('Bot Info')
-		.addField('Bot Author', '[LeoDoesThings](https://github.com/NdT3Development) (Leo [LeoDoesThings#9534])', true)
+		.setColor("GREEN")
+		.setTitle("Bot Info")
+		.addField("Bot Author", "[LeoDoesThings](https://github.com/NdT3Development) (Leo [LeoDoesThings#9534])", true)
 		.addField(`Github Repository`, `https://github.com/LeoDoesThings/ShpeeBot`, true)
 		.addField(`Discord.js Version`, `v${Discord.version}`, true)
 		.addField(`Node Version`, `${process.version}`, true)
@@ -25,8 +25,8 @@ exports.conf = {
 };
 
 exports.help = {
-	name: 'info',
-	category: 'System',
-	description: 'Provides some bot info',
-	usage: 'info'
+	name: "info",
+	category: "System",
+	description: "Provides some bot info",
+	usage: "info"
 };

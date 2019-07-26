@@ -10,8 +10,8 @@ exports.conf = {
 };
 
 exports.help = {
-	name: 'permlevel',
-	category: 'Miscelaneous',
-	description: 'Returns your permission level',
-	usage: 'permlevel'
+	name: "permlevel",
+	category: "Miscelaneous",
+	description: "Returns your permission level",
+	usage: "permlevel"
 };

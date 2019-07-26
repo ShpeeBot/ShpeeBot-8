@@ -1,7 +1,7 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 exports.run = (client, message, args) => {
-	var m = args.join(' ');
-	if (!m) return message.reply('Need content for the embed...');
+	var m = args.join(" ");
+	if (!m) return message.reply("Need content for the embed...");
 	const embed = new Discord.RichEmbed()
 		.setDescription(m)
 		.setColor([114, 137, 218]);
@@ -16,8 +16,8 @@ exports.conf = {
 };
 
 exports.help = {
-	name: 'embed',
-	category: 'Miscelaneous',
-	description: 'Embeds something',
-	usage: 'embed [description]'
+	name: "embed",
+	category: "Miscelaneous",
+	description: "Embeds something",
+	usage: "embed [description]"
 };

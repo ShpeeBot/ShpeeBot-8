@@ -1,5 +1,5 @@
 exports.run = async (client, message, args, level) => { // eslint-disable-line no-unused-vars
-	message.channel.send('Testing, testing, 1 2 3');
+	message.channel.send("Testing, testing, 1 2 3");
 };
 
 exports.conf = {
@@ -10,8 +10,8 @@ exports.conf = {
 };
 
 exports.help = {
-	name: 'test',
-	category: 'Miscelaneous',
-	description: 'Testing, testing',
-	usage: 'test'
+	name: "test",
+	category: "Miscelaneous",
+	description: "Testing, testing",
+	usage: "test"
 };
