@@ -78,7 +78,7 @@ Please read the `PRIVACY.md` file.
 
 ## License
 
-Please read the `LICENSE` file
+Please read the `LICENSE.md` file
 
 ---
 "Discord", "Discord App", and any associated logos are registered trademarks of Discord, inc.
