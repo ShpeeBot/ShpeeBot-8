@@ -2,9 +2,8 @@ template: |
   ## What’s Changed
   $CHANGES
   
-  > **It is best you download this release to avoid security issues through outdated dependencies.**
   
   ---
   
   Download the release through the ZIP or TAR.GZ below.
-  **Licensed under Apcache 2.0 unless explicitly specified otherwise**
+  **Licensed under Apcache 2.0 unless specified otherwise**
