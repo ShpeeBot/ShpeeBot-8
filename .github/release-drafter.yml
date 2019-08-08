@@ -2,8 +2,6 @@ template: |
   ## What’s Changed
   $CHANGES
   
-  > **It is best you download this release to avoid security issues through outdated dependencies.**
-  
   ---
   
   Download the release through the ZIP or TAR.GZ below.
