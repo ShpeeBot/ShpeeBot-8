@@ -32,6 +32,9 @@ Good news - You can host Shpee for free on Glitch!
 
 See the [wiki on how to set up Shpee](https://github.com/DankZone/ShpeeBot/wiki).
 
+Get the latest stable release through the [releases section](https://github.com/DankZone/ShpeeBot/releases) on our repo.  
+In the future we may start providing pre-releases, but for now if you want development versions, clone the [glitch branch](https://github.com/DankZone/ShpeeBot/tree/glitch).
+
 ### Invite Public Bot
 
 Invite Shpee by DankZone through the Shpee website! <https://shpee.dankzone.ml/>.  
@@ -57,12 +60,12 @@ For the dashboard, you may change the theme, wording, design, links, etc. howeve
 
 ## Contributing
 
-Want to contribute?
-
 Shpee is open-source on our GitHub repository so everyone in the community can contribute to the growth of the bot. Whether it is from reporting issues, requesting features, or straight-up requesting to add some new code, it can all be done on our GitHub repo!
 
 Shpee is written in Discord.js. If you want to add a feature or work on the code, feel free make a pull request. 
 We review all pull requests even if we don't reply to them.
+
+You can also report vulnerable dependencies in our project. Make sure you see the `SECURITY.md` file for how to report a vulnerable dependency.
 
 If you don't know how to code but still want to contribute you can donate to us at <https://donorbox.org/dankzone> to support the project.
 
@@ -71,6 +74,12 @@ If you don't know how to code but still want to contribute you can donate to us 
 - Bot based on NdT3Development's [DiscordBot](https://github.com/An-Idiots-Guide/guidebot).
 - Made using [Discord.js](https://github.com/hydrabolt/discord.js).
 - The music part of the bot is based on [this bot](https://github.com/iCrawl/Music-Bot).
+
+### Security Guards
+
+These people have reported serious security vulnerabilities in our project;
+
+- [LeoDoesThings](https://github.com/LeoDoesThings)
 
 ## Security
 
