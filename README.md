@@ -72,6 +72,10 @@ If you don't know how to code but still want to contribute you can donate to us 
 - Made using [Discord.js](https://github.com/hydrabolt/discord.js).
 - The music part of the bot is based on [this bot](https://github.com/iCrawl/Music-Bot).
 
+## Security
+
+Please read the `SECURITY.md` file.
+
 ## Privacy
 
 Please read the `PRIVACY.md` file.
