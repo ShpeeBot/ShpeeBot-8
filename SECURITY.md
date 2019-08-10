@@ -18,7 +18,7 @@ If your vulnerability is declined, do not expect any new changes.
 
 If you report a serious vulnerability, your name will be added to the *Security Guards* section of our README as a "reward".
 
-### Security Vulnerability Report Template
+## Security Vulnerability Report Template
 
 **Is your report about an NPM dependency? Please explain**  
 A clear and concise description of what the problem is.  
