@@ -32,7 +32,7 @@ Good news - You can host Shpee for free on Glitch!
 
 See the [wiki on how to set up Shpee](https://github.com/DankZone/ShpeeBot/wiki).
 
-Get the latest stable release through the [releases section](https://github.com/DankZone/ShpeeBot/releases) on our repo.  
+**Get the latest stable release through the [releases section](https://github.com/DankZone/ShpeeBot/releases) on our repo.**  
 In the future we may start providing pre-releases, but for now if you want development versions, clone the [glitch branch](https://github.com/DankZone/ShpeeBot/tree/glitch).
 
 ### Invite Public Bot
