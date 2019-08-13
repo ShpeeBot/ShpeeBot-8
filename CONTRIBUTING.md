@@ -142,7 +142,7 @@ Please open an issue if you have suggestions for new labels.
 | `question` | [search][search-shpeebot-repo-label-question] | Questions more than bug reports or feature requests (e.g. how do I do X). |
 | `feedback` | [search][search-shpeebot-repo-label-feedback] | General feedback more than bug reports or feature requests. |
 | `help-wanted` | [search][search-shpeebot-repo-label-help-wanted] | The shpeebot core team would appreciate help from the community in resolving these issues. |
-| `beginner` | [search][search-shpeebot-repo-label-beginner] | Less complex issues which would be good first issues to work on for users who want to contribute to shpeebot. |
+| `good-first-issue` | [search][search-shpeebot-repo-label-good-first-issue] | Less complex issues which would be good first issues to work on for users who want to contribute to Shpee. |
 | `more-information-needed` | [search][search-shpeebot-repo-label-more-information-needed] | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce). |
 | `needs-reproduction` | [search][search-shpeebot-repo-label-needs-reproduction] | Likely bugs, but haven't been reliably reproduced. |
 | `duplicate` | [search][search-shpeebot-repo-label-duplicate] | Issues which are duplicates of other issues, i.e. they have been reported before. |
@@ -164,6 +164,7 @@ Please open an issue if you have suggestions for new labels.
 [search-shpeebot-repo-label-question]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Adankzone%2Fshpeebot+label%3Aquestion
 [search-shpeebot-repo-label-feedback]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Adankzone%2Fshpeebot+label%3Afeedback
 [search-shpeebot-repo-label-help-wanted]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Adankzone%2Fshpeebot+label%3Ahelp-wanted
+[search-shpeebot-repo-label-good-first-issue]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Adankzone%2Fshpeebot+label%3Agood-first-issue
 [search-shpeebot-repo-label-more-information-needed]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Adankzone%2Fshpeebot+label%3Amore-information-needed
 [search-shpeebot-repo-label-needs-reproduction]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Adankzone%2Fshpeebot+label%3Aneeds-reproduction
 [search-shpeebot-repo-label-triage-help-needed]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Adankzone%2Fshpeebot+label%3Atriage-help-needed
@@ -178,4 +179,5 @@ Please open an issue if you have suggestions for new labels.
 [search-shpeebot-repo-label-work-in-progress]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Adankzone%2Fshpeebot+label%3Awork-in-progress
 [search-shpeebot-repo-label-needs-review]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Adankzone%2Fshpeebot+label%3Aneeds-review
 [search-shpeebot-repo-label-under-review]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Adankzone%2Fshpeebot+label%3Aunder-review
+[search-shpeebot-repo-label-requires-changes]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Adankzone%2Fshpeebot+label%3Arequires-changes
 [search-shpeebot-repo-label-needs-testing]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Adankzone%2Fshpeebot+label%3Aneeds-testing
