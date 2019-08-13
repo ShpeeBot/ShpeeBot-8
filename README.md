@@ -69,6 +69,8 @@ You can also report vulnerable dependencies in our project. Make sure you see th
 
 If you don't know how to code but still want to contribute you can donate to us at <https://donorbox.org/dankzone> to support the project.
 
+**For more infortmation on contributing, please read the `CONTRIBUTING.md` file.**
+
 ## Credits
 
 - Bot based on NdT3Development's [DiscordBot](https://github.com/An-Idiots-Guide/guidebot).
