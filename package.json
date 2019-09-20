@@ -42,7 +42,7 @@
     "node": "8.x"
   },
   "author": "LeoDoesThings",
-  "license": "Apache-2.0",
+  "license": "GPL-3.0",
   "devDependencies": {
     "jshint": "^2.9.5"
   }
