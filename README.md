@@ -69,6 +69,12 @@ You can also report vulnerable dependencies in our project. Make sure you see th
 
 If you don't know how to code but still want to contribute you can donate to us at <https://donorbox.org/dankzone> to support the project.
 
+Check out the source code of the Public Shpee Bot on Glitch.
+<!-- View Source Button -->
+<a href="https://glitch.com/edit/#!/shpeebot">
+  <img src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fview-source%402x.png?1513093958802" alt="view source" height="33">
+</a>
+
 **For more infortmation on contributing, please read the `CONTRIBUTING.md` file.**
 
 ## Credits

@@ -9,10 +9,10 @@
         </div>
         <div class="col">
           <i class="fa fa-users fa-fw" aria-hidden="true"></i> <%= `${guild.memberCount}` %> Members
-          ( <i class="fa fa-android fa-fw" aria-hidden="true"></i> <%= `${guild.members.filter(m=>m.user.bot).size}` %> Bots )
+          ( <i class="fas fa-robot"></i> <%= `${guild.members.filter(m=>m.user.bot).size}` %> Bots )
         </div>
         <div class="col">
-          <i class="fa fa-users fa-fw" aria-hidden="true"></i> <%= `${guild.roles.size} Roles` %>
+          <i class="fas fa-user-tag"></i> <%= `${guild.roles.size} Roles` %>
         </div>
         <div class="col">
           Channels : <i class="fa fa-hashtag fa-fw" aria-hidden="true"></i> <%= `${guild.channels.filter(c=>c.type==='text').size}`%>
@@ -38,7 +38,7 @@
     <input type="text" class="form-control" id="<%= key %>" name="<%= key %>" placeholder="Enter <%= key %>" value="<%= settings[key] %>">
   </div>
   <% } %>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i><i class="fab fa-"></i> Save</button>
 </form>
 
 
