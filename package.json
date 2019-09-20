@@ -1,6 +1,6 @@
 {
   "name": "Shpee",
-  "version": "8.5.2",
+  "version": "8.5.3",
   "description": "My first Discord bot made in Discord.js",
   "main": "server.js",
   "dependencies": {
