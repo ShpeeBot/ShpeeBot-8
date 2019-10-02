@@ -13,8 +13,8 @@ let ejs = require("ejs");
 app.use(express.static("dashboard/public"));
 
 try {
-	require("./bot.js");
+  require("./bot.js");
 } catch (err) {
-	console.error("Unable to load bot.js \n", err);
-	process.exit(1);
+  console.error("Unable to load bot.js \n", err);
+  process.exit(1);
 }
