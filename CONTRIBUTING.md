@@ -13,15 +13,17 @@ The following is a set of guidelines for contributing to Shpee, which is publish
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
 
 [How Can I Contribute?](#how-can-i-contribute)
-  * [Reporting Bugs](#reporting-bugs)
-  * [Suggesting Enhancements](#suggesting-enhancements)
-  * [Pull Requests](#pull-requests)
+
+- [Reporting Bugs](#reporting-bugs)
+- [Suggesting Enhancements](#suggesting-enhancements)
+- [Pull Requests](#pull-requests)
 
 [Documentation Contributions](#documentation-contributions)
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [dankzonediscord@gmali.com](mailto:dankzonediscord@gmail.com).
+This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md).
+By participating, you are expected to uphold this code. Please report unacceptable behavior to [support@dankzone.xyz](mailto:support@dankzone.xyz).
 
 ## I don't want to read this whole thing I just have a question!!!
 
@@ -29,23 +31,24 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 If chat is more your speed, you can join the DankZone discord server:
 
-* [Join the DankZone Discord server](https://discord.gg/gwamp7n)
-    * Even though Discord is a chat service, sometimes it takes several hours for us to respond &mdash; please be patient!
-    * Use the `#discussions` channel for general questions or discussion about Shpee
-    * Use the `#help` channel for questions or discussion about writing or contributing to Shpee
-    * There are many other channels available, check the channel list
+- [Join the DankZone Discord server](https://discord.gg/gwamp7n)
+  - Even though Discord is a chat service, sometimes it takes several hours for us to respond &mdash; please be patient!
+  - Use the `#discussions` channel for general questions or discussion about Shpee
+  - Use the `#help` channel for questions or discussion about writing or contributing to Shpee
+  - There are many other channels available, check the channel list
 
 ## What should I know before I get started?
 
 #### Shpee is a small GitHub repository that we maintain.
+
 Please do not expect 5 star support or service on our repo, we are a small group who work on various different things.
-So far on __10 August 2019__ we have only one developer working on this project.
+So far on **10 August 2019** we have only one developer working on this project.
 
 It will take some time for us to review and respond to your issue tickets and pull requests, please be patient.
 
 ### Design Decisions
 
-When we make a significant decision in how we maintain the project and what we can or cannot support, we will document it in the [design-decisions.md file](https://github.com/DankZone/ShpeeBot/design-decisions.md). If you have a question around how we do things, check to see if it is documented there. If it is *not* documented there, please contact us on [Discord](https://discord.gg/gwamp7n) or by [email](mailto:dankzonediscord@gmail.com) and ask your question.
+When we make a significant decision in how we maintain the project and what we can or cannot support, we will document it in the [design-decisions.md file](https://github.com/DankZone/ShpeeBot/design-decisions.md). If you have a question around how we do things, check to see if it is documented there. If it is _not_ documented there, please contact us on [Discord](https://discord.gg/gwamp7n) or by [email](mailto:dankzonediscord@gmail.com) and ask your question.
 
 ## How Can I Contribute?
 
@@ -55,42 +58,42 @@ Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/).
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
-* **Use a clear and descriptive title** for the issue to identify the problem.
-* **Describe the exact steps which reproduce the problem** in as much detail as possible.
-* **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
-* **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.
-* **Explain which behavior you expected to see instead and why.**
-* **Include screenshots and animated GIFs** which show you following the described steps and clearly demonstrate the problem. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
-* **If you're reporting that Shpee crashed**, explain what caused the crash. Also give a copy of the bot log.
-* **If the problem wasn't triggered by a specific action**, describe what you were doing before the problem happened and share more information using the guidelines below.
+- **Use a clear and descriptive title** for the issue to identify the problem.
+- **Describe the exact steps which reproduce the problem** in as much detail as possible.
+- **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
+- **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.
+- **Explain which behavior you expected to see instead and why.**
+- **Include screenshots and animated GIFs** which show you following the described steps and clearly demonstrate the problem. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
+- **If you're reporting that Shpee crashed**, explain what caused the crash. Also give a copy of the bot log.
+- **If the problem wasn't triggered by a specific action**, describe what you were doing before the problem happened and share more information using the guidelines below.
 
 Include details about your configuration and environment:
 
-* **Which version of Shpee are you using?** You can get the exact version by typing `info` in any server channel or DMs.
-* **What's the name and version of the OS you're using**?
-* **Which packages do you have installed?** You can get that list by running `npm list -g --depth=0`.
-* **Are you using Shpee on multiple servers?** If so, can you reproduce the problem on a single server?
+- **Which version of Shpee are you using?** You can get the exact version by typing `info` in any server channel or DMs.
+- **What's the name and version of the OS you're using**?
+- **Which packages do you have installed?** You can get that list by running `npm list -g --depth=0`.
+- **Are you using Shpee on multiple servers?** If so, can you reproduce the problem on a single server?
 
 ### Requesting Enhancements
 
 Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). To submit, create an issue ticket and provide the following information:
 
-* **Use a clear and descriptive title** for the issue to identify the suggestion.
-* **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
-* **Provide specific examples to demonstrate the steps**. Include copy/pasteable snippets which you use in those examples, as [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
-* **Describe the current behavior** and **explain which behavior you expected to see instead** and why.
-* **Include screenshots and animated GIFs** which help you demonstrate the steps or point out the part of Shpee which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
-* **Explain why this enhancement would be useful** to most users and isn't something that can or should be implemented as an npm package.
-* **List some other Discord bots where this enhancement exists.**
-* **Specify which version of Shpee you're using.** You can get the exact version by typing `.info` in any server channel or DMs.
-* **Specify the name and version of the OS you're using.**
+- **Use a clear and descriptive title** for the issue to identify the suggestion.
+- **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
+- **Provide specific examples to demonstrate the steps**. Include copy/pasteable snippets which you use in those examples, as [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
+- **Describe the current behavior** and **explain which behavior you expected to see instead** and why.
+- **Include screenshots and animated GIFs** which help you demonstrate the steps or point out the part of Shpee which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
+- **Explain why this enhancement would be useful** to most users and isn't something that can or should be implemented as an npm package.
+- **List some other Discord bots where this enhancement exists.**
+- **Specify which version of Shpee you're using.** You can get the exact version by typing `.info` in any server channel or DMs.
+- **Specify the name and version of the OS you're using.**
 
 ### Your First Code Contribution
 
 Unsure where to begin contributing to Shpee? You can start by looking through these `good first issue` and `help-wanted` issues:
 
-* [Good first issues][good-first-issues] - issues which should only require a few lines of code, and a test or two.
-* [Help wanted issues][help-wanted] - issues which should be a bit more involved than `beginner` issues.
+- [Good first issues][good-first-issues] - issues which should only require a few lines of code, and a test or two.
+- [Help wanted issues][help-wanted] - issues which should be a bit more involved than `beginner` issues.
 
 Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
@@ -114,12 +117,12 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 ## Documentation Contributions
 
-* For contributing to the docs make sure your words are clear and easily understandable.
-* Use [Markdown](https://daringfireball.net/projects/markdown).
-* If you know how to use Glitch, please add documentation for running the bot on Glitch.
-    * Go more in-depth into hosting the bot on Glitch
-    * Also include special Glitch features like Glitch assets, `.env`, etc.
-    * If you want to make is easier for us to review your contribution, you can [remix our project](https://glitch.com/edit/#!/remix/dzshpee) with your changes.
+- For contributing to the docs make sure your words are clear and easily understandable.
+- Use [Markdown](https://daringfireball.net/projects/markdown).
+- If you know how to use Glitch, please add documentation for running the bot on Glitch.
+  - Go more in-depth into hosting the bot on Glitch
+  - Also include special Glitch features like Glitch assets, `.env`, etc.
+  - If you want to make is easier for us to review your contribution, you can [remix our project](https://glitch.com/edit/#!/remix/dzshpee) with your changes.
 
 ## Additional Notes
 
@@ -135,29 +138,29 @@ Please open an issue if you have suggestions for new labels.
 
 #### Issue Ticket Labels
 
-| Label name | `DankZone/ShpeeBot` :mag_right:| Description |
-| --- | --- | --- |
-| `enhancement` | [search][search-shpeebot-repo-label-enhancement] | Feature requests. |
-| `bug` | [search][search-shpeebot-repo-label-bug] | Confirmed bugs or reports that are very likely to be bugs. |
-| `question` | [search][search-shpeebot-repo-label-question] | Questions more than bug reports or feature requests (e.g. how do I do X). |
-| `feedback` | [search][search-shpeebot-repo-label-feedback] | General feedback more than bug reports or feature requests. |
-| `help-wanted` | [search][search-shpeebot-repo-label-help-wanted] | The shpeebot core team would appreciate help from the community in resolving these issues. |
-| `good-first-issue` | [search][search-shpeebot-repo-label-good-first-issue] | Less complex issues which would be good first issues to work on for users who want to contribute to Shpee. |
-| `more-information-needed` | [search][search-shpeebot-repo-label-more-information-needed] | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce). |
-| `needs-reproduction` | [search][search-shpeebot-repo-label-needs-reproduction] | Likely bugs, but haven't been reliably reproduced. |
-| `duplicate` | [search][search-shpeebot-repo-label-duplicate] | Issues which are duplicates of other issues, i.e. they have been reported before. |
-| `wontfix` | [search][search-shpeebot-repo-label-wontfix] | The shpeebot core team has decided not to fix these issues for now, either because they're working as intended or for some other reason. |
-| `invalid` | [search][search-shpeebot-repo-label-invalid] | Issues which aren't valid (e.g. user errors). |
+| Label name                | `DankZone/ShpeeBot` :mag_right:                              | Description                                                                                                                              |
+| ------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| `enhancement`             | [search][search-shpeebot-repo-label-enhancement]             | Feature requests.                                                                                                                        |
+| `bug`                     | [search][search-shpeebot-repo-label-bug]                     | Confirmed bugs or reports that are very likely to be bugs.                                                                               |
+| `question`                | [search][search-shpeebot-repo-label-question]                | Questions more than bug reports or feature requests (e.g. how do I do X).                                                                |
+| `feedback`                | [search][search-shpeebot-repo-label-feedback]                | General feedback more than bug reports or feature requests.                                                                              |
+| `help-wanted`             | [search][search-shpeebot-repo-label-help-wanted]             | The shpeebot core team would appreciate help from the community in resolving these issues.                                               |
+| `good-first-issue`        | [search][search-shpeebot-repo-label-good-first-issue]        | Less complex issues which would be good first issues to work on for users who want to contribute to Shpee.                               |
+| `more-information-needed` | [search][search-shpeebot-repo-label-more-information-needed] | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce).                               |
+| `needs-reproduction`      | [search][search-shpeebot-repo-label-needs-reproduction]      | Likely bugs, but haven't been reliably reproduced.                                                                                       |
+| `duplicate`               | [search][search-shpeebot-repo-label-duplicate]               | Issues which are duplicates of other issues, i.e. they have been reported before.                                                        |
+| `wontfix`                 | [search][search-shpeebot-repo-label-wontfix]                 | The shpeebot core team has decided not to fix these issues for now, either because they're working as intended or for some other reason. |
+| `invalid`                 | [search][search-shpeebot-repo-label-invalid]                 | Issues which aren't valid (e.g. user errors).                                                                                            |
 
 #### Pull Request Labels
 
-| Label name | `DankZone/ShpeeBot` :mag_right: | Description
-| --- | --- | --- |
-| `work-in-progress` | [search][search-shpeebot-repo-label-work-in-progress] | Pull requests which are still being worked on, more changes will follow. |
-| `needs-review` | [search][search-shpeebot-repo-label-needs-review] | Pull requests which need code review, and approval from maintainers or shpeebot core team. |
-| `under-review` | [search][search-shpeebot-repo-label-under-review] | Pull requests being reviewed by maintainers or shpeebot core team. |
-| `requires-changes` | [search][search-shpeebot-repo-label-requires-changes] | Pull requests which need to be updated based on review comments and then reviewed again. |
-| `needs-testing` | [search][search-shpeebot-repo-label-needs-testing] | Pull requests which need manual testing. |
+| Label name         | `DankZone/ShpeeBot` :mag_right:                       | Description                                                                                |
+| ------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| `work-in-progress` | [search][search-shpeebot-repo-label-work-in-progress] | Pull requests which are still being worked on, more changes will follow.                   |
+| `needs-review`     | [search][search-shpeebot-repo-label-needs-review]     | Pull requests which need code review, and approval from maintainers or shpeebot core team. |
+| `under-review`     | [search][search-shpeebot-repo-label-under-review]     | Pull requests being reviewed by maintainers or shpeebot core team.                         |
+| `requires-changes` | [search][search-shpeebot-repo-label-requires-changes] | Pull requests which need to be updated based on review comments and then reviewed again.   |
+| `needs-testing`    | [search][search-shpeebot-repo-label-needs-testing]    | Pull requests which need manual testing.                                                   |
 
 [search-shpeebot-repo-label-enhancement]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Adankzone%2Fshpeebot+label%3Aenhancement
 [search-shpeebot-repo-label-bug]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Adankzone%2Fshpeebot+label%3Abug

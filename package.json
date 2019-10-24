@@ -1,6 +1,6 @@
 {
   "name": "Shpee",
-  "version": "8.5.3",
+  "version": "8.6.9",
   "description": "My first Discord bot made in Discord.js",
   "main": "server.js",
   "dependencies": {
@@ -9,7 +9,7 @@
     "discord.js": "^11.5.1",
     "djs-collection-persistent": "^0.1.5",
     "ejs": "^2.7.1",
-    "enmap": "^5.1.0",
+    "enmap": "^5.2.0",
     "enmap-level": "^2.1.0",
     "express": "^4.16.4",
     "express-session": "^1.16.1",
@@ -28,9 +28,10 @@
     "showdown": "^1.9.0",
     "cheerio": "^0.22.0",
     "node-bypasser": "^1.8.0",
-    "simple-youtube-api": "^5.2.1",
-    "ytdl-core": "^0.29.7",
-    "opusscript": "^0.0.7",
+    "node-opus": "^0.3.2",
+    "ytdl-core": "^1.0.0",
+    "ytsearcher": "^1.2.2",
+    "ytpl": "^0.1.17",
     "prism-media": "^1.1.0",
     "isgd": "^1.1.3"
   },

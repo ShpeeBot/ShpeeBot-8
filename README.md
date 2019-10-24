@@ -40,9 +40,9 @@ In the future we may start providing pre-releases, but for now if you want devel
 
 ### Invite Public Bot
 
-Invite Shpee by DankZone through the Shpee website! <https://shpee.dankzone.ml/>.
+Invite Shpee by DankZone through the Shpee website! <https://shpee.dankzone.xyz/>.
 
-Bot offline? Check the [DankZone status page](https://status.dankzone.ml/) for real-time status monitoring to see if the bot is offline.  
+Bot offline? Check the [DankZone status page](https://status.dankzone.xyz/) for real-time status monitoring to see if the bot is offline.  
 If the bot really is offline, we'll be working on it ASAP to get the bot online again.
 
 **Hosting a bot 24/7 costs money ya know?**
@@ -51,7 +51,7 @@ If you are using our public bot, please seriously consider donating to us at <ht
 
 ### Customisable
 
-Shpee has a web dashboard so you can change the settings to your server's needs! Check out the dashboard at <https://shpee.dankzone.ml/>.
+Shpee has a web dashboard so you can change the settings to your server's needs! Check out the dashboard at <https://shpee.dankzone.xyz/>.
 
 ## Changes to the Code
 
@@ -82,9 +82,9 @@ Check out the source code of the Public Shpee Bot on Glitch.
 
 ## Credits
 
-- Bot based on NdT3Development's [DiscordBot](https://github.com/An-Idiots-Guide/guidebot).
-- Made using [Discord.js](https://github.com/hydrabolt/discord.js).
-- The music part of the bot is based on [this bot](https://github.com/iCrawl/Music-Bot).
+- Bot based on An Idiots Guide's [Guidebot](https://github.com/An-Idiots-Guide/guidebot).
+- Made using [Discord.js](https://github.com/discordjs/discord.js).
+- The music part of the bot is based on [this bot](https://github.com/DarkoPendragon/discord.js-musicbot-addon).
 
 ### Security Guards
 

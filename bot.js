@@ -7,9 +7,6 @@ const readdir = promisify(require("fs").readdir);
 const fs = require("fs");
 const Enmap = require("enmap");
 const EnmapLevel = require("enmap-level");
-const YouTube = require("simple-youtube-api");
-const ytdl = require("ytdl-core");
-//const pg = require("pg"); // Coming soon!
 
 const client = new Discord.Client();
 const config = require("./config.js");
@@ -34,7 +31,6 @@ if (!allowedStatuses.includes(client.config.status)) {
 }
 
 require("./modules/functions.js")(client);
-require("./modules/music.js")(client);
 
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
@@ -44,13 +40,6 @@ client.points = new Enmap({ provider: new EnmapLevel({ name: "points" }) });
 //client.warnings = new Enmap({ provider: new EnmapLevel({ name: "warnings" }) }); // Coming soon (format: `${guild.id}-${user.id}`)
 
 client.talkedRecently = new Set();
-
-if (client.config.musicEnabled === "true") {
-  client.musicQueue = new Map();
-
-  client.YouTube = new YouTube(client.config.googleAPIToken);
-  client.ytdl = ytdl;
-}
 
 const init = async () => {
   const cmdFiles = await readdir("./commands/");
@@ -85,6 +74,21 @@ const init = async () => {
   });
 
   var token = client.config.token;
+
+  if (client.config.musicEnabled === "true") {
+    // START MUSIC YEA BOI
+    client.music = require("./modules/music.js");
+    client.music.start(client, {
+      youtubeKey: client.config.googleAPIToken,
+      botPrefix: ".",
+      anyoneCanSkip: true,
+      ownerOverMember: true,
+      ownerID: client.config.ownerID,
+      cooldown: {
+        enabled: false
+      }
+    });
+  }
 
   process.on("unhandledRejection", err => {
     if (
