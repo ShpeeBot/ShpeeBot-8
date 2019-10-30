@@ -2,7 +2,7 @@
 
 <p>
     <a href="https://app.codacy.com/project/LeoDoesThings/ShpeeBot/dashboard"><img src="https://img.shields.io/codacy/grade/4d742458af0b4079b123ae14a6f95d70?style=for-the-badge" alt="Code Quality"></a>
-    <a href="https://github.com/DankZone/ShpeeBot/blob/glitch/LICENSE"><img src="https://img.shields.io/github/license/DankZone/ShpeeBot?style=for-the-badge" alt="License"></a>
+    <a href="https://github.com/DankZone/ShpeeBot/blob/glitch/LICENSE.md"><img src="https://img.shields.io/github/license/DankZone/ShpeeBot?style=for-the-badge" alt="License"></a>
     <a href="https://github.com/DankZone/ShpeeBot/releases"><img src="https://img.shields.io/github/release/DankZone/ShpeeBot?style=for-the-badge" alt="Version"></a>
     <a href="https://discord.gg/gwamp7n"><img src="https://img.shields.io/discord/344369585950294016?logo=Discord&style=for-the-badge" alt="Discord server"></a>
 </p>
@@ -34,9 +34,9 @@ See the [wiki on how to set up Shpee](https://github.com/DankZone/ShpeeBot/wiki)
 
 ### Invite Public Bot
 
-Invite Shpee by DankZone through the Shpee website! <https://shpee.dankzone.ml/>.  
+Invite Shpee by DankZone through the Shpee website! <https://shpee.dankzone.xyz/>.  
 
-Bot offline? Check the [DankZone status page](https://status.dankzone.ml/) for real-time status monitoring to see if the bot is offline.  
+Bot offline? Check the [DankZone status page](https://status.dankzone.xyz/) for real-time status monitoring to see if the bot is offline.  
 If the bot really is offline, we'll be working on it ASAP to get the bot online again.
   
   
@@ -45,7 +45,7 @@ If the bot really is offline, we'll be working on it ASAP to get the bot online 
 If you are using our public bot, please seriously consider donating to us at <https://donorbox.org/dankzone>. Even if you aren't using our public bot, donating ensures that we continue to update the bot and fix issues.
 
 ### Customisable
-Shpee has a web dashboard so you can change the settings to your server's needs! Check out the dashboard at <https://shpee.dankzone.ml/>.
+Shpee has a web dashboard so you can change the settings to your server's needs! Check out the dashboard at <https://shpee.dankzone.xyz/>.
 
 ## Changes to the Code
 
