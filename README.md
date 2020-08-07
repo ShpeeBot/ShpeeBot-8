@@ -7,9 +7,11 @@
     <a href="https://discord.gg/gwamp7n"><img src="https://img.shields.io/discord/344369585950294016?logo=Discord&style=for-the-badge" alt="Discord server"></a>
 </p>
 
-Shpee Discord bot made for the [DankZone Discord server](https://discordapp.com/invite/gwamp7n).
+**For Shpee development updates, got to https://leodt.xyz**
 
-## It currently has these features
+---
+
+## Shpee currently has these features
 - Kicking users
 - Banning users
 - Ping command
@@ -34,15 +36,8 @@ See the [wiki on how to set up Shpee](https://github.com/DankZone/ShpeeBot/wiki)
 
 ### Invite Public Bot
 
-Invite Shpee by DankZone through the Shpee website! <https://shpee.dankzone.xyz/>.  
-
-Bot offline? Check the [DankZone status page](https://status.dankzone.xyz/) for real-time status monitoring to see if the bot is offline.  
-If the bot really is offline, we'll be working on it ASAP to get the bot online again.
-  
-  
-**Hosting a bot 24/7 costs money ya know?**
-
-If you are using our public bot, please seriously consider donating to us at <https://donorbox.org/dankzone>. Even if you aren't using our public bot, donating ensures that we continue to update the bot and fix issues.
+~~Invite Shpee by DankZone through the Shpee website! <https://shpee.dankzone.xyz/>.~~  
+The public bot is not currently maintained as I focus on making Shpee version 9.
 
 ### Customisable
 Shpee has a web dashboard so you can change the settings to your server's needs! Check out the dashboard at <https://shpee.dankzone.xyz/>.
