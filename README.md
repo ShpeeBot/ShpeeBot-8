@@ -1,9 +1,10 @@
 # Shpee Discord Bot
 
+
 <p>
-    <a href="https://app.codacy.com/project/LeoDoesThings/ShpeeBot/dashboard"><img src="https://img.shields.io/codacy/grade/4d742458af0b4079b123ae14a6f95d70?style=for-the-badge" alt="Code Quality"></a>
-    <a href="https://github.com/DankZone/ShpeeBot/blob/glitch/LICENSE.md"><img src="https://img.shields.io/github/license/DankZone/ShpeeBot?style=for-the-badge" alt="License"></a>
-    <a href="https://github.com/DankZone/ShpeeBot/releases"><img src="https://img.shields.io/github/release/DankZone/ShpeeBot?style=for-the-badge" alt="Version"></a>
+    <a href="https://www.codefactor.io/repository/github/leodoesthings/shpeebot"><img src="https://www.codefactor.io/repository/github/leodoesthings/shpeebot/badge" alt="CodeFactor" /></a>
+    <img alt="GitHub" src="https://img.shields.io/github/license/LeoDoesThings/ShpeeBot">
+    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/LeoDoesThings/ShpeeBot?include_prereleases">
     <a href="https://discord.gg/gwamp7n"><img src="https://img.shields.io/discord/344369585950294016?logo=Discord&style=for-the-badge" alt="Discord server"></a>
 </p>
 
