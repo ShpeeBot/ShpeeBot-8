@@ -60,8 +60,6 @@ Shpee is open-source on our GitHub repository so everyone in the community can c
 Shpee is written in Discord.js. If you want to add a feature or work on the code, feel free make a pull request. 
 We review all pull requests even if we don't reply to them.
 
-If you don't know how to code but still want to contribute you can donate to us at <https://donorbox.org/dankzone> to support the project.
-
 ## Credits
 
 - Bot based on NdT3Development's [DiscordBot](https://github.com/An-Idiots-Guide/guidebot).
