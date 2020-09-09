@@ -15,6 +15,8 @@ Steps to reproduce the behavior:
 1. 
 2. 
 3. 
+4. 
+5. 
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
@@ -24,7 +26,8 @@ If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
  - OS: [e.g. Windows 10, iOS, MacOS]
- - Version [e.g. Discord Canary 0.0.234]
+ - Bot Version [e.g. v8.5.3-beta, v9.0.0]
+ - Host [e.g. Heroku, Glitch, DigitalOcean]
 
 **Additional context**
 Add any other context about the problem here.

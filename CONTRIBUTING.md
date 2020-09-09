@@ -2,7 +2,7 @@
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-The following is a set of guidelines for contributing to Shpee, which is published in the [DankZone Organization](https://github.com/DankZone) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to Shpee which is published on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 #### Table Of Contents
 
@@ -21,17 +21,16 @@ The following is a set of guidelines for contributing to Shpee, which is publish
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [dankzonediscord@gmali.com](mailto:dankzonediscord@gmail.com).
+This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to <leo@leodt.xyz>.
 
 ## I don't want to read this whole thing I just have a question!!!
 
 > **Note:** Please don't file an issue to ask a question. You'll get faster results by using the resources below.
 
-If chat is more your speed, you can join the DankZone discord server:
+If chat is more your speed, you can join the support Discord server:
 
-* [Join the DankZone Discord server](https://discord.gg/gwamp7n)
-    * Even though Discord is a chat service, sometimes it takes several hours for us to respond &mdash; please be patient!
-    * Use the `#discussions` channel for general questions or discussion about Shpee
+* [Join the support Discord server](https://link.leodt.xyz/invite)
+    * Even though Discord is a chat service, sometimes it can take several hours for me to be able to respond &mdash; please be patient!
     * Use the `#help` channel for questions or discussion about writing or contributing to Shpee
     * There are many other channels available, check the channel list
 
@@ -45,7 +44,7 @@ It will take some time for us to review and respond to your issue tickets and pu
 
 ### Design Decisions
 
-When we make a significant decision in how we maintain the project and what we can or cannot support, we will document it in the [design-decisions.md file](https://github.com/DankZone/ShpeeBot/design-decisions.md). If you have a question around how we do things, check to see if it is documented there. If it is *not* documented there, please contact us on [Discord](https://discord.gg/gwamp7n) or by [email](mailto:dankzonediscord@gmail.com) and ask your question.
+When we make a significant decision in how we maintain the project and what we can or cannot support, we will document it in the [design-decisions.md file](https://github.com/LeoDoesThings/ShpeeBot/design-decisions.md). If you have a question around how we do things, check to see if it is documented there. If it is *not* documented there, please contact us on [Discord](https://link.leodt.xyz/invite) or by [email](mailto:leo@leodt.xyz) and ask your question.
 
 ## How Can I Contribute?
 
@@ -94,7 +93,7 @@ Unsure where to begin contributing to Shpee? You can start by looking through th
 
 Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
-If you want to read about using Shpee or developing for Shpee, the [Shpee docs](https://github.com/DankZone/ShpeeBot/wiki) are available on our GitHub wiki and as a standalone site soon.
+If you want to read about using Shpee or developing for Shpee, the [Shpee docs](https://github.com/LeoDoesThings/ShpeeBot/wiki) are available on our GitHub wiki and as a standalone site soon.
 
 ### Pull Requests
 
@@ -116,10 +115,7 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 * For contributing to the docs make sure your words are clear and easily understandable.
 * Use [Markdown](https://daringfireball.net/projects/markdown).
-* If you know how to use Glitch, please add documentation for running the bot on Glitch.
-    * Go more in-depth into hosting the bot on Glitch
-    * Also include special Glitch features like Glitch assets, `.env`, etc.
-    * If you want to make is easier for us to review your contribution, you can [remix our project](https://glitch.com/edit/#!/remix/dzshpee) with your changes.
+* If you know how to use a host that there is no documentation for yet feel free to open a pull request.
 
 ## Additional Notes
 

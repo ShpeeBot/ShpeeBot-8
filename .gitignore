@@ -61,19 +61,16 @@ typings/
 .next
 
 # Project specific files
+.github
 config.js
 data
 configsetup.js
-_linux_run.sh
-_windows_run.bat
 .glitch-assets
 watch.json
 .restart
 .cache
 .config
 .data
-linux_run.sh
-windows_run.sh
 package-lock.json
 .snyk
 .gitignore
