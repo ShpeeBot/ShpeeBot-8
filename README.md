@@ -1,16 +1,9 @@
 # Shpee Discord Bot
 
-
-<p>
-    <a href="https://www.codefactor.io/repository/github/leodoesthings/shpeebot"><img src="https://www.codefactor.io/repository/github/leodoesthings/shpeebot/badge" alt="CodeFactor" /></a>
-    <img alt="GitHub" src="https://img.shields.io/github/license/LeoDoesThings/ShpeeBot">
-    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/LeoDoesThings/ShpeeBot?include_prereleases">
-    <a href="https://discord.gg/gwamp7n"><img src="https://img.shields.io/discord/344369585950294016?logo=Discord" alt="Discord server"></a>
-</p>
-
 ---
 
-**For Shpee development updates, got to https://leodt.xyz**
+### ShpeeBot has moved!  
+Go to <https://github.com/ShpeeBot/ShpeeBot> for new releases.
 
 ---
 
